@@ -1,0 +1,355 @@
+/* body */
+.background{
+	position: relative;
+	background-color: #394867;
+	background-image: url(../Images/bg-01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+/* .background{
+	width: 100%;
+	height: 100%;
+	animation: bg-anim 1.5s linear;
+	animation-iteration-count: 15;
+	background-size: 32%;
+} */
+.header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.678);
+	/* opacity: 60%; */
+}
+.h-div-1, .h-nav-2{
+	padding: 20px 50px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid ;
+	border-radius: 20px;
+	/* background-color: white; */
+	/* opacity: 60%; */
+}
+.sec-1{
+	margin-top: 276px;
+}
+.s1-div-1{
+	height: 350px;
+}
+.s1-div-2{
+	height: 700px;
+	width: 100%;
+	border-radius: 0px;
+	padding: 10px 10px;
+	border-style: solid;
+	border-color: white;
+    border-width: 2px;
+    margin-left: 100px;
+}
+.s1-div-21{
+	border-radius: 50px;
+	padding: 10px 10px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+.s1-div-212{
+	height: 300px;
+	background-image: url(../Images/tower.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    background-position: center;
+}
+.s1-div-213{
+	height: 300px;
+	background-image: url(../Images/mirror.jpg);
+    background-size: cover;
+    border-radius: 50px;
+}
+.s1-div-214{
+    margin-top: 15px;
+	height:300px;
+	background-image: url(../Images/sea.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    background-position: center;
+}
+.s2-div-1, .s2-div-2, .s2-div-3{
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 20px 50px;
+    border-radius: 20px;
+    align-items: center;
+}
+.s2-div1-img{
+    width: 250px;
+    height: 150px;
+    background-image:url(../Images/Submit\ a\ Project.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+}
+.s2-div2-img{
+    width: 250px;
+    height: 150px;
+    background-image:url(../Images/Advertise.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+}
+
+.s2-div3-img{
+    width: 250px;
+    height: 150px;
+    background-image:url(../Images/Architecture\ Competitions.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.404);
+    /* height: 200px; */
+}
+footer ul li{
+    margin-right: 20px;
+}
+
+
+
+/* dafeult */
+.font-1 {
+    font-family: Poppins;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.font-2 {
+    font-family: Poppins;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.font-3 {
+    font-family: Poppins;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 59px;
+}
+.font-4 {
+    font-family: Poppins;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.font-5 {
+    font-family: Poppins;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 19px;
+}
+h3 {
+    font-family: Poppins;
+    color: #000;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 59px;
+}
+p {
+    font-family: Poppins;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    line-height: 24px;
+}
+h4 {
+    font-family: Poppins;
+    color:white;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 59px;
+}
+h5 {
+    font-family: Poppins;
+    color:white;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+}
+h6 {
+    font-family: Poppins;
+    color: #000;
+    font-size: 21px;
+    font-weight: 550;
+    line-height: 59px;
+}
+.x10 {
+    margin-top: 10px;
+}
+.disp-non{
+	display: none;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.flex-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: start;
+}
+.flex-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: end;
+}
+.flex-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex-ar {
+    -ms-flex-pack: distribute;
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+}
+.flex-centr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.fl-rig{
+	float: right;
+}
+.pad-left {
+    padding-left: 138px;
+}
+.pad-rig {
+    padding-right: 139px;
+}
+.mar-left {
+    margin-left: 138px;
+}
+.mar-rig {
+    margin-right: 138px;
+}
+.marg-100t {
+    margin-top: 100px;
+}
+.marg-10r {
+    margin-right: 10px;
+}
+.marg-50l {
+    margin-left: 50px;
+}
+.marg-50t {
+    margin-top: 50px;
+}
+.marg-50b {
+    margin-bottom: 50px;
+}
+.marg-50t {
+    margin-top: 50px;
+}
+.marg-20l {
+    margin-left: 20px;
+}
+.marg-10b {
+    margin-bottom: 10px;
+}
+.marg-10t {
+    margin-top: 10px;
+}
+.w-580 {
+    width: 580px;
+}
+.w512 {
+    width: 512px;
+}
+.w-352 {
+    width: 352px;
+}
+.marg-20t {
+    margin-top: 20px;
+}
+.marg-0{
+    margin:0 auto;
+}
+.text-cen{
+	text-align: center;
+}
+.box-s{
+	box-sizing: border-box;
+}
+/* elements */
+.but-1{
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(255, 255, 255, 0);
+	width: 260px;
+}
+.footer-icon{
+    color: white;
+    margin-right: 20px;
+}
+/* hover */
+a:hover{
+	color:#415680;
+}
+/* keyframes */
+@keyframes bg-anim{
+	0%{background-image: url(../Images/17.png);}
+	6.25%{background-image: url(../Images/1.png);}
+	12.5%{background-image: url(../Images/2.png);}
+	18.75%{background-image: url(../Images/3.png);}
+	25%{background-image: url(../Images/4.png);}
+	31.25%{background-image: url(../Images/5.png);}
+	37.5%{background-image: url(../Images/6.png);}
+	43.75%{background-image: url(../Images/7.png);}
+	50%{background-image: url(../Images/8.png);}
+	56.25%{background-image: url(../Images/9.png);}
+	62.5%{background-image: url(../Images/10.png);}
+	68.75%{background-image: url(../Images/12.png);}
+	75%{background-image: url(../Images/13.png);}
+	81.25%{background-image: url(../Images/14.png);}
+	87.5%{background-image: url(../Images/15.png);}
+	93.75%{background-image: url(../Images/16.png);}
+	100%{background-image: url(../Images/17.png);}
+}
