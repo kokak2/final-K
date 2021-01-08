@@ -1,3 +1,8 @@
+@media(max-width:1500px){
+    .s1-div-1{
+        width: 400px;
+    }
+}
 @media(max-width:1350px){
     .pad-left{padding-left:100px}
     .pad-rig{padding-right:100px}
@@ -5,6 +10,9 @@
 @media(max-width:1270px){
     .s2-div-3{
         display: none;
+    }
+    .s1-div-1{
+        width: 100%;
     }
 @media(max-width:1140px){
     
@@ -33,6 +41,12 @@
     .s1-div-2{
         margin-top: 50px;
         margin-left: 0px;
+    }
+    .s1-div-2{
+        display: none;
+    }
+    .s1-div-02{
+        width: 100%;
     }
 @media(max-width:700px){
     .pad-left{padding-left:50px}

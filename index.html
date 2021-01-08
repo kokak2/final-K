@@ -12,13 +12,14 @@
 			<link rel="preconnect" href="https://fonts.gstatic.com">
 			<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
 			<script src="https://kit.fontawesome.com/63dab8ef35.js" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="index.js"></script>
 	</head>
 	<body>
 		<div class="background flex-col">
 			<header class="header flex pad-left pad-rig box-s">
-				<div class="h-div-1 flex-col text-cen marg-10t marg-10b"><h3>Arch Zero</h3> <h3> CLUB</h3> </div>
+				<div class="h-div-1 flex-col text-cen marg-10t marg-10b" id="hd1"><h3>Arch Zero</h3> <h3> CLUB</h3> </div>
 				<nav class="h-nav-2 flex-col marg-10t marg-10b">
-					<ul class="h-nav2-ul flex">
+					<ul class="h-nav2-ul flex " id="nav">
 						<li class=""> <a class="font-2" href="index.html">Home</a>
 						</li>
 						<li class="marg-50l li-1"> <a class="font-1" href="#">Projects</a>
@@ -35,10 +36,10 @@
 						<p class="lang font-2 marg-20l">en</p>
 					</div>
 				</nav>
-				<div class="disp-non h-div-4"> <i class="fas fa-bars"></i> </div>
+				<div class="disp-non h-div-4"> <i onclick="nav()" class="fas fa-bars"></i> </div>
 			</header>	
-			<section class="sec-1 flex pad-left pad-rig box-s">
-				<div class="s1-div-1 flex-col">
+			<section class="sec-1 flex-wrap pad-left pad-rig box-s">
+				<div class="s1-div-1 flex-col marg-100b">
 					<h5>WE ZERO-ARCHITECT</h5>
 					<div style="height: 2px; background-color: white;"></div>
 					<h4>Website for</h4>
@@ -46,37 +47,39 @@
 					<p class="font-4">Solutions for small-scale apartments are becoming more and more needed due to the increasingly smaller apartments being built in the centers of Brazil's major cities.</p>
 					<button class="but-1 font-3">Learn more</button>
 				</div>
-				<div class="s1-div-2 box-s">
-					<div class="s1-div-21 box-s flex-col">
-						<div class="s1-div-211 flex-ar">
-							<h5>Architecture</h5>
-							<i class="fas fa-bars" style="color: white;"></i>
-						</div>
-						<div class="s1-div-212 marg-10t"></div>
-						<div class="s1-div-214"></div>
+				<div class="flex s1-div-02 marg-100b">
+					<div id="s1d021" class="s1-div-021"></div>
+					<div class="s1-div-2 box-s flex-col">
+							<!-- <div class="s1-div-211 flex-ar">
+								<h5>Architecture</h5>
+								<i class="fas fa-bars" style="color: white;"></i>
+							</div> -->
+							<button id="s1d212" onclick="f212()" class="s1-div-212"></button>
+							<button id="s1d213" onclick="f213()" class="s1-div-213"></button>
+							<button id="s1d214" onclick="f214()" class="s1-div-214"></button>	
 					</div>
 				</div>
 			</section>
 			<section class="sec-2 flex-wrap pad-left pad-rig">
-				<div class="s2-div-1 flex-col marg-100t">
+				<div class="s2-div-1 flex-col marg-100b">
 					<h6>Submit a Project</h6>
 					<div class="s2-div1-img"></div>
 					<p class="font-5 marg-10t text-cen" style="width: 250px;">We reach more than 13.6 million readers every month. With channels in English, Spanish, Portuguese and Chinese, and more than 40 new projects published daily, no other architecture network has the global scope we have.</p>
 				</div>
-				<div class="s2-div-2 flex-col marg-100t">
+				<div class="s2-div-2 flex-col marg-100b">
 					<h6>Advertise</h6>
 					<div class="s2-div2-img"></div>
 					<p class="font-5 marg-10t text-cen" style="width: 250px;">Reach architects, get specified
 						More than 13 million architects visit ArchDaily every month to search for inspiration, tools, and knowledge. Bring your products to the spotlight.</p>
 				</div>
-				<div class="s2-div-3 flex-col marg-100t">
+				<div class="s2-div-3 flex-col marg-100b">
 					<h6>Competitions</h6>
 					<div class="s2-div3-img"></div>
 					<p class="font-5 marg-10t text-cen" style="width: 250px;">The international call for proposals aims to find an architecture office to design the new Las Salinas Urban Park (Parque Urbano Las Salinas), a beach-side complex in the city of Viña Del Mar, Chile. </p>
 				</div>
 			</section>
 			<footer class="footer marg-100t flex-col pad-rig pad-left">
-				<ul class="f-div flex-start marg-50t">
+				<ul class="f-div flex-start">
 					<li><a href="#" class="font-4">Work at Arch-Zero</a></li>
 					<li><a href="#"class="font-4"> Terms of Use</a></li>
 					<li><a href="#"class="font-4"> Privacy Policy</a></li>
