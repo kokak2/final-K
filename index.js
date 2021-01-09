@@ -18,6 +18,8 @@ function f214(){
 };
 function nav(){
   document.getElementById("hd1").innerHTML=document.getElementById("nav").innerHTML
-  console.log('dfhbsdh')
   document.getElementById("hd1").setAttribute('class', 'flex-col h-nav2-ul')
+}
+function sign(){
+  alert('Sign in first, please')
 }

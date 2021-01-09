@@ -14,13 +14,20 @@
     .s1-div-1{
         width: 100%;
     }
-@media(max-width:1140px){
+@media(max-width:1050px){
+    .sec-sig-12{
+        display: none;
+    }
+}
     
 @media(max-width:950px){
     .header nav ul{flex-direction: column;}
     .li-1 {margin: 0px;}
     nav{flex-direction: row;}
     .h-nav2-ul{height: 140px;}
+    .h-div-32{
+        display: none;
+    }
     /* body{
         background-size: contain;
         background-color: rgb(38, 38, 53);
@@ -32,7 +39,7 @@
         color: rgba(255, 255, 255, 0.603);
     }
     h3{color:rgba(255, 255, 255, 0.603);} */
-
+}
 @media(max-width:760px){
     .w-580{width:100%}
     .sec-1{
@@ -48,6 +55,7 @@
     .s1-div-02{
         width: 100%;
     }
+}
 @media(max-width:700px){
     .pad-left{padding-left:50px}
     .pad-rig{padding-right:50px}
@@ -55,9 +63,10 @@
     .footer ul{
         flex-wrap: wrap;
     }
+}
 @media(max-width:470px){
     h3,h2,h4{font-size:30px;line-height:40px;}
-    .font-3{font-size:30px;line-height:40px;margin-right:40px;width:100%}
+    .font-3{font-size:30px;line-height:40px;width:100%}
     .w-352{width:100%}
     .h-nav-2{display: none}
     .h-div-4{
@@ -68,6 +77,10 @@
     .sec-2{
         display: none;
     }
+    .sigs-input::placeholder{
+        font-size: 18px;
+    }
+}
 @media(max-width:390px){
     .pad-left{padding-left:20px}
     .pad-rig{padding-right:20px}

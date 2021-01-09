@@ -1,4 +1,5 @@
 /* body */
+/* index */
 .background{
 	position: relative;
 	background-color: #394867;
@@ -35,7 +36,7 @@
     border: none;
     background: none;
 }
-.sec-1{
+.sec-1,.sec-sig-1{
 	margin-top: 276px;
 }
 .s1-div-1{
@@ -65,7 +66,7 @@
 	border-color: white;
     border-width: 2px; */
     /* margin-left: 100px; */
-    position: relative;
+    /* position: relative; */
 }
 .s1-div-21{
 	border-radius: 50px;
@@ -138,9 +139,26 @@
 footer ul li{
     margin-right: 20px;
 }
-
-
-
+/* sign */
+.sigs-input{
+    height: 60px;
+    background-color: transparent;
+    border-style: solid;
+	border-color: white;
+    border-width: 2px;
+    color: white;
+}
+.sigs-input::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 20px;
+}
+.sec-sig-11{
+    width: 100%;
+}
+.sigs11-form-1{
+    border-bottom: solid;
+    border-color: white;
+}
 /* dafeult */
 .font-1 {
     font-family: Poppins;
@@ -191,14 +209,14 @@ p {
     opacity: 1;
     line-height: 24px;
 }
-h4 {
+h4,.h4{
     font-family: Poppins;
     color:white;
     font-size: 42px;
     font-weight: 900;
     line-height: 59px;
 }
-h5 {
+h5,.h5{
     font-family: Poppins;
     color:white;
     font-size: 18px;
@@ -301,6 +319,9 @@ h6 {
 .marg-100b {
     margin-bottom: 100px;
 }
+.marg-100l{
+    margin-left: 100px;
+}
 .marg-10r {
     margin-right: 10px;
 }
@@ -316,14 +337,23 @@ h6 {
 .marg-50t {
     margin-top: 50px;
 }
+.pad-50l{
+    padding-left: 50px;
+}
 .marg-20l {
     margin-left: 20px;
+}
+.pad-20l{
+    padding-left: 20px;
 }
 .marg-10b {
     margin-bottom: 10px;
 }
 .marg-10t {
     margin-top: 10px;
+}
+.pad-10l{
+    padding-left: 10px;
 }
 .w-580 {
     width: 580px;
@@ -361,12 +391,19 @@ h6 {
 a:hover,i:hover{
     color:#415680;
 }
-/* .s1-div-212:hover{
-    transform: scale(3);
-    position: absolute;
-    top: 0px;
-    left: 1000px;
-} */
+.s1-div-212:hover,.s1-div-213:hover,.s1-div-214:hover{
+    border-style: solid;
+	border-color: white;
+    border-width: 2px;
+}
+.s2-div-1:hover, .s2-div-2:hover, .s2-div-3:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+    opacity: 100%;
+}
+.but-1:hover{
+    background-color: rgba(255, 255, 255, 0.678);
+    color: rgba(0, 0, 0, 0.623);
+}
 /* keyframes */
 @keyframes bg-anim{
 	0%{background-image: url(../Images/17.png);}
