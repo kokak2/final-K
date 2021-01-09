@@ -1,12 +1,27 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media(max-width:1500px){
     .s1-div-1{
         width: 400px;
     }
 }
+@media(max-width:1380px){
+.engine{
+   -webkit-transform: scale(0.2);
+       -ms-transform: scale(0.2);
+           transform: scale(0.2);
+}
+}
 @media(max-width:1350px){
     .pad-left{padding-left:100px}
     .pad-rig{padding-right:100px}
-    .mar-left{margin-left:100px}}
+    .mar-left{margin-left:100px}
+}
 @media(max-width:1270px){
     .s2-div-3{
         display: none;
@@ -18,16 +33,25 @@
     .sec-sig-12{
         display: none;
     }
+    .engine{
+        -webkit-transform: scale(0.1);
+            -ms-transform: scale(0.1);
+                transform: scale(0.1);
+     }
+    
 }
     
 @media(max-width:950px){
-    .header nav ul{flex-direction: column;}
+    .header nav ul{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
     .li-1 {margin: 0px;}
-    nav{flex-direction: row;}
+    nav{-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;}
     .h-nav2-ul{height: 140px;}
     .h-div-32{
         display: none;
     }
+    .engine{
+        display: none;
+     }
     /* body{
         background-size: contain;
         background-color: rgb(38, 38, 53);
@@ -61,7 +85,8 @@
     .pad-rig{padding-right:50px}
     .mar-left{margin-left:50px}}
     .footer ul{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 }
 @media(max-width:470px){
@@ -70,12 +95,30 @@
     .w-352{width:100%}
     .h-nav-2{display: none}
     .h-div-4{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        transform: scale(1.5);
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+                transform: scale(1.5);
     }
     .sec-2{
         display: none;
+    }
+    .sigs-input::-webkit-input-placeholder{
+        font-size: 18px;
+    }
+    .sigs-input::-moz-placeholder{
+        font-size: 18px;
+    }
+    .sigs-input:-ms-input-placeholder{
+        font-size: 18px;
+    }
+    .sigs-input::-ms-input-placeholder{
+        font-size: 18px;
     }
     .sigs-input::placeholder{
         font-size: 18px;

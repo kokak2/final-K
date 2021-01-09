@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* body */
 /* index */
 .background{
@@ -106,7 +113,9 @@
     background-color: rgba(255, 255, 255, 0.678);
     padding: 20px 50px;
     border-radius: 20px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .s2-div1-img{
     width: 250px;
@@ -150,12 +159,28 @@ footer ul li{
 }
 /* sign */
 .sigs-input{
-    height: 60px;
+    /* height: 60px; */
     background-color: transparent;
     border-style: solid;
 	border-color: white;
     border-width: 2px;
     color: white;
+}
+.sigs-input::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 20px;
+}
+.sigs-input::-moz-placeholder{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 20px;
+}
+.sigs-input:-ms-input-placeholder{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 20px;
+}
+.sigs-input::-ms-input-placeholder{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 20px;
 }
 .sigs-input::placeholder{
     color: rgba(255, 255, 255, 0.733);
@@ -273,7 +298,8 @@ h6 {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .flex-start {
     display: -webkit-box;
@@ -306,8 +332,12 @@ h6 {
 .flex-ar {
     -ms-flex-pack: distribute;
 	justify-content: space-around;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .flex-centr {
     display: -webkit-box;
@@ -399,7 +429,8 @@ h6 {
 	text-align: center;
 }
 .box-s{
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 /* elements */
 .but-1{
@@ -430,6 +461,25 @@ a:hover,i:hover{
     color: rgba(0, 0, 0, 0.623);
 }
 /* keyframes */
+@-webkit-keyframes bg-anim{
+	0%{background-image: url(../Images/17.png);}
+	6.25%{background-image: url(../Images/1.png);}
+	12.5%{background-image: url(../Images/2.png);}
+	18.75%{background-image: url(../Images/3.png);}
+	25%{background-image: url(../Images/4.png);}
+	31.25%{background-image: url(../Images/5.png);}
+	37.5%{background-image: url(../Images/6.png);}
+	43.75%{background-image: url(../Images/7.png);}
+	50%{background-image: url(../Images/8.png);}
+	56.25%{background-image: url(../Images/9.png);}
+	62.5%{background-image: url(../Images/10.png);}
+	68.75%{background-image: url(../Images/12.png);}
+	75%{background-image: url(../Images/13.png);}
+	81.25%{background-image: url(../Images/14.png);}
+	87.5%{background-image: url(../Images/15.png);}
+	93.75%{background-image: url(../Images/16.png);}
+	100%{background-image: url(../Images/17.png);}
+}
 @keyframes bg-anim{
 	0%{background-image: url(../Images/17.png);}
 	6.25%{background-image: url(../Images/1.png);}
