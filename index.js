@@ -19,7 +19,22 @@ function f214(){
 function nav(){
   document.getElementById("hd1").innerHTML=document.getElementById("nav").innerHTML
   document.getElementById("hd1").setAttribute('class', 'flex-col h-nav2-ul')
-}
+};
 function sign(){
   alert('Sign in first, please')
+};
+function readMore1(){
+  document.getElementById("readMore1").style.display='block';
+  document.getElementById("rmb1").style.display='none';
+};
+function readMore2(){
+  document.getElementById("readMore2").style.display='block';
+  document.getElementById("rmb2").style.display='none';
+};
+function readMore3(){
+  document.getElementById("readMore3").style.display='block';
+  document.getElementById("rmb3").style.display='none';
+};
+function news1(){
+  document.getElementById("news1").style.display='block';
 }
